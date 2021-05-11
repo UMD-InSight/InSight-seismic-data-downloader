@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/362388409.svg)](https://zenodo.org/badge/latestdoi/362388409)
 
-Scripts for InSight seismic data download and processing.
+This repository contains scripts for InSight seismic data download and processing. The scripts download the VBB SEIS instrument data for the seismic events that are listed in the Marsquake Catalog. The scripts are developed by the University of Maryland InSight group, whereas the instrument and marsquake events information are provided by working groups of the InSight team and should be cited appropriately, according to the information provided below.
 
 ## Contributors
 Foivos Karakostas, Doyeon Kim, Ross Maguire, Aisha Khatib, Quancheng Huang, Angela Marusiak, Nicholas Schmerr, Ved Lekić - the University of Maryland, College Park, InSight group 
