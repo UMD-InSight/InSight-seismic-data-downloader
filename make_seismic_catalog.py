@@ -20,7 +20,7 @@ ns = {"q":"http://quakeml.org/xmlns/quakeml/1.2",
         "tensor":"http://anss.org/xmlns/tensor/0.1",
         "mars":"http://quakeml.org/xmlns/bed/1.2/mars"}
 
-tree = ET.parse('events_extended_multiorigin_v6_2021-01-01.xml')
+tree = ET.parse('events_extended_multiorigin_v8_2021-07-01.xml')
 root = tree.getroot()
 eventlist = root.findall('d:eventParameters',ns)
 
