@@ -15,7 +15,7 @@ In order to use this suite, a python3 installation in your system is necessary, 
 
 This repository contains:
 
-1. The 6th version of the Marsquakes Catalog. Citation: InSight Marsquake Service (2021). Use the link for the download and cite accordingly.
+1. The 8th version of the Marsquakes Catalog. Citation: InSight Marsquake Service (2021). Use the link for the download and cite accordingly.
 2. The ELYSE station dataless file. Citation: InSight MARS SEIS Data Service (2019). Use the link for the download and cite accordingly.
 3. The python script **make_seismic_catalog.py** that creates the text file of the catalog, needed for the event data downloaders.
 4. The python script **eventdownloader.py**, which is used for downloading and processing of a unique event data.
