@@ -5,7 +5,7 @@
 This repository contains scripts for InSight seismic data download and processing. The scripts download the VBB SEIS instrument data for the seismic events that are listed in the Marsquake Catalog. The scripts are developed by the University of Maryland InSight group, whereas the instrument and marsquake events information are provided by working groups of the InSight team and should be cited appropriately, according to the information provided below.
 
 ## Contributors
-Foivos Karakostas, Doyeon Kim, Ross Maguire, Aisha Khatib, Quancheng Huang, Angela Marusiak, Nicholas Schmerr, Ved Lekić - the University of Maryland, College Park, InSight group 
+Foivos Karakostas, Doyeon Kim, Ross Maguire, Aisha Khatib, Quancheng Huang, Angela Marusiak, Nicholas Schmerr, Ved Lekić - the University of Maryland, College Park, InSight group
 
 ## Dependencies
 
@@ -15,7 +15,7 @@ In order to use this suite, a python3 installation in your system is necessary, 
 
 This repository contains:
 
-1. The 8th version of the Marsquakes Catalog. Citation: InSight Marsquake Service (2021). Use the link for the download and cite accordingly.
+1. The 12th version of the Marsquakes Catalog. Citation: InSight Marsquake Service (2022). Use the link for the download and cite accordingly.
 2. The ELYSE station dataless file. Citation: InSight MARS SEIS Data Service (2019). Use the link for the download and cite accordingly.
 3. The python script **make_seismic_catalog.py** that creates the text file of the catalog, needed for the event data downloaders.
 4. The python script **eventdownloader.py**, which is used for downloading and processing of a unique event data.
@@ -23,7 +23,7 @@ This repository contains:
 
 ## Output files
 
-The output files of the suite are saved in a directory that has the following format in your system: **DATA/Event_Type/Event_Quality/Event_Name/**. There are 4 mseed files: 
+The output files of the suite are saved in a directory that has the following format in your system: **DATA/Event_Type/Event_Quality/Event_Name/**. There are 4 mseed files:
 
 * The raw data mseed file, named **Event_Name.mseed**
 * The event data with instrument response removal, rotation to Z, N, E and the application of a Tukey window filter, with the 5% of the timeseries within the sinusoidal function, named **Event_Name_DISP.mseed** for displacement, **Event_Name_VEL.mseed** for velocity and **Event_Name_ACC.mseed** for acceleration.
@@ -54,5 +54,5 @@ When you use InSight SEIS Data, please follow the [citation instructions](https:
 
 1. Clinton, J. F., Ceylan, S., van Driel, M., Giardini, D., Stähler, S. C., Böse, M., … Stott, A. E. (2021). The Marsquake catalogue from InSight, sols 0–478. Physics of the Earth and Planetary Interiors, 310, 106595. https://doi:10.1016/j.pepi.2020.106595
 2. InSight Mars SEIS Data Service. (2019). SEIS raw data, Insight Mission. IPGP, JPL, CNES, ETHZ, ICL, MPS, ISAE-Supaero, LPG, MFSC. https://doi.org/10.18715/SEIS.INSIGHT.XB_2016
-3. InSight Marsquake Service (2021). Mars Seismic Catalogue, InSight Mission; V8 2021-07-01. ETHZ, IPGP, JPL, ICL, MPS, Univ. Bristol. https://doi.org/10.12686/a13
+3. InSight Marsquake Service (2022). Mars Seismic Catalogue, InSight Mission; V12 2022-07-01. ETHZ, IPGP, JPL, ICL, MPS, Univ. Bristol. https://doi.org/10.12686/a18
 4. Lognonné, P., Banerdt, W.B., Giardini, D. et al. (2019). SEIS: Insight’s Seismic Experiment for Internal Structure of Mars. Space Sci Rev 215, 12. https://doi.org/10.1007/s11214-018-0574-6
