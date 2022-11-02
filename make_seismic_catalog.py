@@ -1,18 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# This is a notebook for reading the xml file of the InSight Event Catalog
-
-# In[10]:
-
-
 import csv
 import requests
 import xml.etree.ElementTree as ET
-
-
-# In[11]:
-
 
 ns = {"q":"http://quakeml.org/xmlns/quakeml/1.2",
        "d":"http://quakeml.org/xmlns/bed/1.2",
@@ -24,17 +15,9 @@ tree = ET.parse('events_mars_extended_multiorigin_v12_2022-07-01.xml')
 root = tree.getroot()
 eventlist = root.findall('d:eventParameters',ns)
 
-
-# In[12]:
-
-
 for ep in eventlist:
         xevents = ep.findall('d:event',ns)
         print ("Found %d events." % (len(xevents)))
-
-
-# In[13]:
-
 
 import os
 if os.path.exists("SeismicCatalog"):
@@ -77,12 +60,3 @@ for e in range (0, len(xevents)):
         file1.writelines(line)
 
 file1.close()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
