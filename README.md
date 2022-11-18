@@ -42,7 +42,7 @@ The Event_Type and the Event_Quality are the Type and Quality of the event respe
 
 ## Citations and acknowledgements
 
-The scripts of this repository download Mars InSight seismic data from IRIS. It is developped by Foivos Karakostas, Doeyeon Kim, Ross Maguire, Aisha Khatib and the University of Maryland InSight group. Please acknowledge.
+The scripts of this repository download Mars InSight seismic data from IRIS. It is developped by Foivos Karakostas, Doeyeon Kim, Ross Maguire, Aisha Khatib, Quancheng Huang, Angela Marusiak, Nicholas Schmerr, Ved Lekić and the University of Maryland InSight group. Please acknowledge.
 
 When you use InSight SEIS Data, please follow the [citation instructions](https://www.seis-insight.eu/en/science/seis-data/seis-citation-information) that are also copied here:
 
