@@ -21,6 +21,14 @@ This repository contains:
 4. The python script **eventdownloader.py**, which is used for downloading and processing of a unique event data.
 5. The python script **massivedownloader.py**, which is used for downloading and processing of events' data of a specific event Type and Quality (see Clinton et al., 2021 for details).
 
+## How to use
+
+**make_seismic_catalog.py**: Just run the script and the SeismicCatalog text file will be generated.
+
+**eventdownloader.py**: When asked to input the event, write the full event name. For example, to download the S1222a event, write *S1222a*.
+
+**massivedownloader.py**: When asked to input the Quality, write *A, B, C, or D*. When asked to input the Class, write the name of the class in the way that it is written in the SeismicCatalog text file, which means *LOW_FREQUENCY, BROADBAND, 2.4_HZ, HIGH_FREQUENCY, and VERY_HIGH_FREQUENCY*. For example, to download the A quality BROADBAND events, write *A* for the Quality input, and *BROADBAND* for the Class input.
+
 ## Output files
 
 The output files of the suite are saved in a directory that has the following format in your system: **DATA/Event_Type/Event_Quality/Event_Name/**. There are 4 mseed files:
@@ -34,7 +42,7 @@ The Event_Type and the Event_Quality are the Type and Quality of the event respe
 
 ## Citations and acknowledgements
 
-The scripts of this repository download Mars InSight seismic data from IRIS. It is developped by Foivos Karakostas, Doeyeon Kim, Ross Maguire, Aisha Khatib and the University of Maryland InSight group. Please acknowledge.
+The scripts of this repository download Mars InSight seismic data from IRIS. It is developped by Foivos Karakostas, Doeyeon Kim, Ross Maguire, Aisha Khatib, Quancheng Huang, Angela Marusiak, Nicholas Schmerr, Ved Lekić and the University of Maryland InSight group. Please acknowledge.
 
 When you use InSight SEIS Data, please follow the [citation instructions](https://www.seis-insight.eu/en/science/seis-data/seis-citation-information) that are also copied here:
 
